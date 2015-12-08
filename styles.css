@@ -7,15 +7,23 @@ header{
 main {
   background: skyblue;
 }
+/*#left, #right{
+  padding: 10px;
+  box-sizing: border-box;
+}*/
 #left {
  background: limegreen;
  float: left;
- width:200px;
+ width:100px;
 }
+/*#center {
+ background: seagreen;
+ margin: 0 100px;
+ width:60%;
+}*/
 #right{
   background: lightgreen;
-  float: left;
-  width:300px;
+  margin-left: 100px
 }
 
 .clearfix::after {
