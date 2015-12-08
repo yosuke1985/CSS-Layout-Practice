@@ -1,0 +1,46 @@
+body {
+
+}
+header{
+  background: tomato;
+}
+main {
+  background: skyblue;
+}
+#left {
+ background: limegreen;
+ float: left;
+ width:200px;
+}
+#right{
+  background: lightgreen;
+  float: left;
+  width:300px;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear:both;
+}
+.clear {
+  overflow: hidden;
+}
+footer{
+ clear:both;
+ background: slategray;
+
+}
+.container{
+  width: 500px;
+  margin: 0 auto;
+  background: pink;
+}
+
+
+/*#eyecatch {
+  background: url('eyecatch.png') no-repeat;
+  background-size: cover;
+  background-position: 50% 20%;
+  height: 200px;
+}*/
